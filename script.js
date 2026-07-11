@@ -9,10 +9,10 @@ fetch("news.json")
         html += `
         <div class="card">
             <h3>${article.title}</h3>
-            <p>${article.published}</p>
+            <div class="date">${article.published}</div>
 
             <a href="${article.link}" target="_blank">
-                Read More
+                Read Full Article →
             </a>
         </div>
         `;
